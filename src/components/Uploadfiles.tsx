@@ -2,7 +2,6 @@ import  {useState } from "react"
 import { UploadOutlined , DeleteOutlined, ReloadOutlined} from '@ant-design/icons';
 import { Button, message, Upload } from 'antd';
 import { UploadChangeParam } from 'antd/lib/upload';
-
 const Uploadfiles = () => {
     const [fileList, setFileList] = useState<any[]>([]);
 
@@ -28,7 +27,9 @@ const Uploadfiles = () => {
     
     };
   return (
-    <div className="shadow-md rounded-lg mt-32 bg-white w-96  h-full ">
+
+    
+    <div className="shadow-md rounded-lg mt-32 bg-white w-96  h-full  ">
 <div className="bg-card w-full px-5 py-2 rounded-tl-lg rounded-tr-lg"> 
     <h2 className="font-medium"> Upload cover image</h2>
 </div>

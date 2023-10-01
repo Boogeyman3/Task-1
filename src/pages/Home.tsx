@@ -68,11 +68,14 @@ const Home = () => {
     <>
     <div className="flex flex-col gap-4 justify-between">
   <Nav />
+  
 <Uploadfiles />
+
 <PersonalInfo personalInformation={initialPersonalInformation} />      
 <Profile  profilevalue={initialProfile} />    
 <AdditionalQuestion/> 
-  </div>
+</div>
+  
     </>
   )
 }

@@ -31,11 +31,7 @@ border-top: 1px solid rgba(0, 0, 0, 0.15);
   align-items: flex-start;
   background-color: white ;
 }
-.SideMenu{
-  height: 100%;
-background-color: white;
-z-index: 100;
-}
+
 .SideMenuVertical{
     height: 100%;
     display: flex;
@@ -61,4 +57,8 @@ box-shadow: 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
 }
 .ant-switch-checked{
   background:#087B2F !important;
+}
+.active{
+  background-color: #00635B;
+  color: #fff;
 }
